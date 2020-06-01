@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>高顿表单</title>
+  <link rel="stylesheet" type="text/css" href="https://img.thea.cn/public/css/base.css">
+  <link rel="stylesheet" href="https://img.thea.cn/public/platform/thea/202006/hbj/gaodun/css/index.css">
+
+  <script type="text/javascript" src="https://img.thea.cn/public/js/jquery-1.12.3.min.js"></script>
+</head>
+
+<body>
+  <a href="javascript:gaodun();">控制弹窗显示或者隐藏</a>
+
+  <div class="gaodun-mask" id="midtc">
+    <div class="gaodun-popup">
+      <i class="close"></i>
+      <div class="gaodun-h1">您适合学<p><span id='ccieVal'>CFA</span>考试</p>嘛？</div>
+      <span class="gaodun-sub">测一测，综合评估</span>
+      <form class="sign-in">
+        <div class="in-row">
+          <span class="r-k">还想考：</span>
+          <ul class="r-v ck">
+            <li class="on">CFA</li>
+            <li>ACCA</li>
+            <li>FRM</li>
+            <li>CMA</li>
+          </ul>
+          <input type="hidden" class="user-name" value="佚名">
+          <input type="hidden" class="user-con" id="ccie">
+        </div>
+        <div class="in-row">
+          <span class="r-k">手机号：</span>
+          <div class="r-v">
+            <input type="text" class="user-tel" placeholder="可以输入您的手机号">
+            <span class="hint">还能免费领课哟！</span>
+          </div>
+        </div>
+        <div class="in-row">
+          <input type="submit" value="提交评估" id='sb'>
+        </div>
+      </form>
+    </div>
+    <script src="//img.china-kaoshi.com/wx/keepu/keepu.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://img.thea.cn/public/platform/thea/202006/hbj/gaodun/js/index.js"></script>
+  </div>
+</body>
+
+</html>
